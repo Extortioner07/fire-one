@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins' 'san-serif';
+}
+body{
+    background: #081b29;
+    color: aliceblue;
+}
+.margin a {
+    display: inline;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    color: aliceblue;
+    transition: 0.4s;
+   
+}
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    z-index: 100;
+}
+.shakti{
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(41, 174, 236);
+
+}
+.margin a:hover,
+.margin a.blink
+{
+    color: aqua;
+    animation: blinker 1.6s linear infinite;
+}
+
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
+.home{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    padding-top: 10%;
+    padding-left: 44%;
+}
+.blink2{
+animation: blinker2 2s linear;
+}
+@keyframes blinker2{
+    50%{
+        opacity: 0;
+    }
+}
+.image{
+    margin-right: 40px;
+    justify-content: space-between;
+    margin-left: 25%;
+    top: 0;
+}
+.image img{
+    margin-left: 20px;
+    
+}
+.image img.picture1{
+    box-shadow: 5px 10px 3px 2px rgb(12, 12, 24);
+}
+.image img.picture2{
+    box-shadow: 5px 10px 3px 2px rgb(11, 11, 26);
+}
+.music{
+    border: 2px solid rgba(255, 255, 255, .2);
+    font-size: 20px;
+    background: transparent;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    padding-left: 5%;
+    align-items: center;
+    backdrop-filter: blur(50px);
+}
+.ytube{
+   margin-left: 40%;
+}
